@@ -16,3 +16,7 @@ function findMax(arr) {
     // TODO: Combinar las soluciones comparando los máximos
     return leftMax > rightMax ? leftMax : rightMax;
 }
+
+// Ejemplo de entrada
+const numbers = [3, 8, 2, 10, 5, 7];
+console.log(findMax(numbers)); // Salida esperada: 10
