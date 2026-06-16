@@ -8,3 +8,7 @@ function findMax(arr) {
     const mid = Math.floor((arr.length) / 2);
     const leftHalf = arr.slice(0, mid);
     const rightHalf = arr.slice(mid);
+
+    // TODO: Llamar recursivamente a la función para ambas mitades
+    const leftMax  = findMax(leftHalf);
+    const rightMax = findMax(rightHalf);
