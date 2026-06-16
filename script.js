@@ -12,3 +12,7 @@ function findMax(arr) {
     // TODO: Llamar recursivamente a la función para ambas mitades
     const leftMax  = findMax(leftHalf);
     const rightMax = findMax(rightHalf);
+
+    // TODO: Combinar las soluciones comparando los máximos
+    return leftMax > rightMax ? leftMax : rightMax;
+}
