@@ -4,4 +4,7 @@ function findMax(arr) {
         return arr[0];
     }
 
-    
+    // TODO: Dividir el arreglo en dos mitades
+    const mid = Math.floor((arr.length) / 2);
+    const leftHalf = arr.slice(0, mid);
+    const rightHalf = arr.slice(mid);
